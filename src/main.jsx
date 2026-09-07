@@ -40,7 +40,13 @@ function App() {
     const payload = new FormData()
     payload.append('image', file)
     try {
-      const response = await fetch('/api/classify', { method: 'POST', body: payload })
+      const response = await fetch(
+  'http://127.0.0.1:8000/api/predict/',
+  {
+    method: 'POST',
+    body: payload
+  }
+)
       const data = await response.json()
       if (!response.ok) throw new Error(data.error || 'Something went wrong.')
       setPredictions(data.predictions)
