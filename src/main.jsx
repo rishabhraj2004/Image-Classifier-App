@@ -101,7 +101,7 @@ function App() {
           </button>
         </div>
       </section>
-      <footer><span>Developed by TECHVIMAN</span><span>Images are processed for your request and never stored.</span></footer>
+      <footer><span>Developed by RISHABH</span><span>Images are processed for your request and never stored.</span></footer>
     </main>
   )
 }
