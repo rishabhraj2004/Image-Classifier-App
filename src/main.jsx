@@ -65,7 +65,7 @@ function App() {
   return (
     <main>
       <header>
-        <a className="brand" href="/" aria-label="Focus home"><span>✦</span> Techviman Image Classifier</a>
+        <a className="brand" href="/" aria-label="Focus home"><span>✦</span> Image Classifier</a>
         <p>IMAGE INTELLIGENCE, SIMPLIFIED</p>
       </header>
       <section className="hero">
